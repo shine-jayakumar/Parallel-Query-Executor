@@ -1,2 +1,2 @@
-# parallel_query_executor
-ParallelQueryExecutor Class - Runs mysql queries in parallel
+# Parallel Query Executor
+Executes MySql query in parallel
