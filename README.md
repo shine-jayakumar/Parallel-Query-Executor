@@ -14,7 +14,7 @@ payload = [
 ]
 
 # run all queries in parallel
-pqexec = ParallelQueryExecutor(DB_HOST, DB_USER, DB_PASS, DB, payload)
+pqexec = ParallelQueryExecutor(DB_HOST, DB_USER, DB_PASS, DB, payload, auto_commit=True)
 pqexec.runall()
 
 # print result received from the SELECT query
